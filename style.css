@@ -1,6 +1,6 @@
 .uper{
     height: 55px;
-    background-color:  rgb(245, 39, 73);
+    background-color:  rgb(235, 64, 93);
     color: white;
     padding: 0 30px;
     -webkit-box-pack: center;
@@ -46,4 +46,14 @@ body {
     justify-content: flex-start;
     -webkit-box-pack: start;
     padding: 16px 24px 0;
+}
+.bu {
+    text-align: center;
+}
+.bodyback {
+    background-image: url(food\ img.jpg);
+    background-size: cover;
+    height: 700px;
+    width: 1550px;
+    background-repeat: no-repeat;
 }
