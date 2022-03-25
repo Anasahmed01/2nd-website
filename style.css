@@ -64,9 +64,9 @@ body {
     border-radius: 8px;
     padding: 0 15px;
     line-height: 46px;
-    color: rgb(246, 98, 98);
+    color: rgb(255, 255, 255);
     background-color: transparent;
-    border: 1px solid rgb(246, 88, 115);
+    border: 1px solid rgb(255, 255, 255);
     text-transform: uppercase;
     -ms-flex: 0 1 auto;
     -webkit-box-flex: 0;
@@ -89,7 +89,29 @@ body {
     width: 1550px;
     background-repeat: no-repeat;
 }
+#navigator>a{
+    
+    border: 2px solid rgb(255, 255, 255);
+    margin: 9px;
+    padding: 4px;
+    border-radius: 20px;
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+
+}
 #navigator{
+      text-align: center;
+      background-color:rgb(235, 64, 93) ;
+      height: auto;
+      width: auto;
+      
+}
+#navigator>a:hover{
+    background-color: rgb(235, 64, 93);
+}
+.h1-f-d{
     text-align: center;
+    color: rgb(235, 64, 93);
     
 }
