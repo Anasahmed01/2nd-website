@@ -1,0 +1,171 @@
+.header {
+    height: 70px;
+    background-color: #d70f64;
+    color: white;
+    padding: 0 30px;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+.heading {
+    text-align: center;
+}
+
+.svg-stroke-container {
+    float: inline-end;
+    height: 48px;
+    width: 48px;
+    margin-right: 30px;
+    margin-top: -1px;
+    fill: #fff;
+}
+
+body {
+    margin: 0px;
+    color: #333;
+    font-family: "Open Sans", Arial, sans-serif;
+    font-weight: 300;
+    line-height: 1.6;
+    font-size: 1.6rem;
+}
+
+.button-getstarted {
+    z-index: 1;
+    cursor: pointer;
+    position: relative;
+    font-family: "Open Sans", Arial, sans-serif;
+    font-size: 1.4rem;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: none;
+    height: 48px;
+    border: 1px;
+    border-radius: 8px;
+    padding: 0px 15px;
+    margin-left: 70%;
+    line-height: 46px;
+    color: #fff;
+    background-color: #D70F64;
+    border: 1px solid #fff;
+    text-transform: uppercase;
+    -ms-flex: 0 1 auto;
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 1 auto;
+    flex: 0 1 auto;
+    margin-top: 0%;
+}
+
+.button-sign-up {
+
+    cursor: pointer;
+    font-family: "Open Sans", Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: none;
+    height: 48px;
+    border: 1px;
+    border-radius: 8px;
+    padding: 0px 15px;
+    color: #fff;
+    background-color: #D70F64;
+    border: 1px solid #fff;
+
+}
+
+.button-login {
+    cursor: pointer;
+    font-family: "Open Sans", Arial, sans-serif;
+    font-size: 1.4rem;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: none;
+    height: 48px;
+    border: 1px;
+    border-radius: 8px;
+    padding: 0px 15px;
+    color: #fff;
+    background-color: #D70F64;
+    border: 1px solid #fff;
+    margin-left: 10px;
+}
+
+.button-delivery-pickup {
+    cursor: pointer;
+    font-family: "Open Sans", Arial, sans-serif;
+    font-size: 1.4rem;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: none;
+    height: 48px;
+    border: 1px;
+    border-radius: 8px;
+    padding: 0px 15px;
+    color: #fff;
+    background-color: #D70F64;
+    border: 1px solid #fff;
+    margin-left: 10px;
+
+}
+
+
+
+.bodyback {
+    background-image: url(foodpanda2ndback.webp);
+    height: 432px;
+    background-size: cover;
+}
+
+.bodyback-p {
+    width: 596px;
+    padding: 32px;
+    left: 80px;
+    bottom: -80px;
+    margin: 0;
+    position: absolute;
+    text-align: left;
+    background-color: #fff;
+    box-shadow: 0 2px 28px 0;
+    height: 470px;
+    padding: 32px;
+    left: 80px;
+    bottom: -800px;
+    line-height: 1.5em;
+
+}
+
+.bodyback2 {
+    text-align: center;
+    background-image: url(food\ panda\ background.webp);
+    height: 70%;
+    max-width: 100%;
+}
+
+#navigator>a {
+
+    border: 2px solid rgb(255, 255, 255);
+    margin: 9px;
+    padding: 4px;
+    border-radius: 20px;
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+}
+
+.foodpanda-heading {
+    text-align: center;
+    color: #d70f64;
+}
+
+.input-address {
+    height: 50px;
+    width: 50%;
+    margin-left: 50px;
+    border-radius: 10px;
+    border-color: gray;
+
+}
