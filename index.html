@@ -78,6 +78,31 @@
             <br>
         </div>
     </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+<form onsubmit="printTable(); return false"> 
+    <label for="number">enter a table</label>
+    <input required min="2" type="number" id="table">
+    <button type="submit">Submit</button>
+</form>
+       
+
+    <script>
+        function printTable(){
+            let table = document.querySelector("#table").value
+            for (let i = 0; i < 10; i++) {
+            
+            console.log(`${table}  x  ${i+1 }  =  ${table * (i+1)} `)
+        }
+        }
+        
+    </script>
 </body>
 
 </html>
