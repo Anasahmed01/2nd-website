@@ -116,7 +116,8 @@ body {
 
 .bodyback {
     background-image: url(foodpanda2ndback.webp);
-    height: 432px;
+    height: 500px;
+    width: 100%;
     background-size: cover;
 }
 
